@@ -1,74 +1,154 @@
 
+.page-layout {
+
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
 
 
 
 
-/* Children Box Classes */
+
+}
+
 .container {
-    width: 8.5in;  /* Letter size width */
-    height: 11in;  /* Letter size height */
+    width: 8.5in;
+    /* Letter size width */
+    
+    border: 1px solid black; 
+    /* Letter size height */
 }
-.parent {
+
+.contact-information {
     width: 100%;
-    display: flex; 
-    flex-direction: row; justify-content: space-between
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.contact-underline {
+    text-decoration: underline
+}
+.contact-padding {
+    padding-bottom: 10px
 }
 
-.child-1 {
-    align-content: flex-end
+.businesses-row {
+    display: flex;
+    flex-direction: row
+}
 
+
+.businesses-width {
+    width: 25%;
+     
+    padding-right: 5px;
+    border-right: 1px solid;
+}
+
+.businesses-padding{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.experience-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+
+
+
+.header-margin {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 
 
-.parent-2{display: flex; flex-direction: row;}
+
+.header-flex {
+    display: flex;
+    flex-direction: row
+}
+
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 
 
-.child-2 {
+.child-padding1 {
+    padding-right: 67px
+}
+
+
+
+
+
+
+
+.child-3 {
     width: 25%;
     /* border: 1px solid black; */
     padding-right: 5px;
     border-right: 1px solid;
- }
-
-.page-layout {
-
-    /* Makes the stuff behind what u give it red */
-    width: 100%;
-    height: 100vh;
-    
-    color: black;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-
-    display: flex; 
-
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-    
+    justify-content: space-between
+}
 
-    
+.child-5 {
+    width: 75%;
+}
+/* .child-4{ 
+     display: flex;
+    flex-direction:column; 
+    justify-content:space-evenly} */
+
+
+
+
+
+
 
 }
 
-.page-resume { align-self: center }
+.experience-box {
+    width: 25%;
+   
+    padding-right: 5px;
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 
-.page-header{ text-decoration: underline }
-.img{ display: flex; flex: end}
-
-
-
-
-.header-margin{margin-bottom: 0; margin-top: 0;}
-
-p {margin-bottom: 0; margin-top: 0; }
-
-
-.temp-backgroundclr{ background-color: brown}
-
-.header-flex { display: flex; flex-direction: row}
-
-
-hr {margin-top: 0; margin-bottom: 0;}
+.experience-rightcol{
+    width: 75%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
