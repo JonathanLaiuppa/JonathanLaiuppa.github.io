@@ -1,18 +1,8 @@
-
 .page-layout {
-
-
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-
-
-
-
-
 }
 
 .container {
@@ -20,23 +10,22 @@
     /* Letter size width */
     
     border: 1px solid black; 
-    /* Letter size height */
 }
 
-.contact-information {
+.contact-information-row {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between
 }
-.contact-underline {
+.contact-infromation-underline {
     text-decoration: underline
 }
-.contact-padding {
+.contact-information-padding{
     padding-bottom: 10px
 }
 
-.businesses-row {
+.businesses-row{
     display: flex;
     flex-direction: row
 }
@@ -65,23 +54,11 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-
-
-
-
-
-.header-margin {
-    margin-bottom: 0;
-    margin-top: 0;
 }
-
 p {
     margin-bottom: 0;
     margin-top: 0;
 }
-
-
-
 
 .header-flex {
     display: flex;
@@ -94,45 +71,7 @@ hr {
     margin-bottom: 0;
 }
 
-
-
-.child-padding1 {
-    padding-right: 67px
-}
-
-
-
-
-
-
-
-.child-3 {
-    width: 25%;
-    /* border: 1px solid black; */
-    padding-right: 5px;
-    border-right: 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
-}
-
-.child-5 {
-    width: 75%;
-}
-/* .child-4{ 
-     display: flex;
-    flex-direction:column; 
-    justify-content:space-evenly} */
-
-
-
-
-
-
-
-}
-
-.experience-box {
+.experience-leftcol {
     width: 25%;
    
     padding-right: 5px;
